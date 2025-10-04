@@ -27,7 +27,7 @@ CT scans are essentially 3D X-rays, represented as a 3D array of single channel 
 Each voxel (volumetric data) of a CT scan has a numeric value that roughly corresponds to the aver age mass density of the matter contained inside. Most visualizations of that data show high-density material like bones and metal implants as white, low-density air and lung tissue as black, and fat and tissue as various shades of gray. 
 
 <div align='center'>
-<img src="./assets/fight cancer using pytorch.png" width=1000 height=600/>
+<img src="./data/fight cancer using pytorch.png" width=1000 height=600/>
 </div>
 
 
