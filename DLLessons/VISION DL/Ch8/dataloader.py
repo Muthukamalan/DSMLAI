@@ -1,8 +1,10 @@
+import os 
 from typing import Any, Callable, List, Optional
 from torch.utils.data import DataLoader
 from torchvision import datasets
 import numpy as np
 
+DATAPATH:str = os.path.join(os.environ["HOME"],"Documents","Data")
 
 class Cifar10DataLoader:
     def __init__(self, batch_size=128, is_cuda_available=False) -> None:
@@ -32,17 +34,18 @@ class Cifar10DataLoader:
         self,
         transforms: Optional[Callable],
         train=True,
-        data_dir: str = "../../data",
+        data_dir: str = DATAPATH,
+        download:bool = False
     ):
         return datasets.CIFAR10(
             data_dir,
             train=train,
             transform=transforms,
-            download=False,
+            download=download,
         )
 
-    def get_loader(self, transforms: Optional[Callable], train=True):
-        return DataLoader(self.get_dataset(transforms, train), **self.dataloader_args)
+    def get_loader(self, transforms: Optional[Callable], train=True,download:bool=False):
+        return DataLoader(self.get_dataset(transforms, train,download=download), **self.dataloader_args)
 
     def get_classes(self):
         return self.classes

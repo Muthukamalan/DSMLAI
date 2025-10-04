@@ -122,7 +122,7 @@ class Network(nn.Module):
         )
         self.gap = nn.AdaptiveAvgPool2d(output_size=1)
 
-        self.op = nn.Conv2d(in_channels=10,out_channels=10,kernel_size=1,bias=self.bias),
+        self.op = nn.Conv2d(in_channels=10,out_channels=10,kernel_size=1,bias=self.bias)
 
 
     def forward(self,x):

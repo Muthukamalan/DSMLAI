@@ -17,7 +17,7 @@ num_epochs = 10
 
 
 [data]
-dir_path = "/home/muthu/GitHub/DATA 📁"
+dir_path = "/home/muthu/Documents/Data"
 
 [model]
 dropout_rate = 0.01
