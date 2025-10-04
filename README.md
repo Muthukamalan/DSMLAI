@@ -5,15 +5,15 @@
 
 ## DS
 - [X] Algebra
-        - Gradient Descent
-        - Principle Component Analysis
+- Gradient Descent
+- Principle Component Analysis
 - [X] Numpy
 - [X] Pandas
 - [X] Polars
 - [X] Scipy
 - [X] EDA
-        - t-SNE
-        - UMAP
+- t-SNE
+- UMAP
 
 ## DL
 - [ ] VISION
@@ -28,6 +28,6 @@
 - [ ] KNN
 - [X] Xgboost 
 - [ ] Clustering
-        - K Means
-        - Hierarchical 
-        - DBSCAN
+- K Means
+- Hierarchical 
+- DBSCAN
