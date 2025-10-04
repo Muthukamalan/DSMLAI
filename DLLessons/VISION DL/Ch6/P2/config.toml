@@ -1,0 +1,24 @@
+batch_size = 128
+shuffle    = true 
+num_workers= 12
+pin_memory = true
+
+[optimizer]
+lr = 0.01
+momentum = 0.9
+
+[scheduler]
+step_size = 15
+gamma = 0.1
+
+
+[training]
+num_epochs = 10
+
+
+[data]
+dir_path = "/home/muthu/GitHub/DATA 📁"
+
+[model]
+dropout_rate = 0.01
+bias = false

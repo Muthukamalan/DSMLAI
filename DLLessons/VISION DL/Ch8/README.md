@@ -1,0 +1,25 @@
+# Objective
+- [X] Change Dataset to CIFAR10
+- [ ] Network
+    - C1  Kernel=3
+    - C2  Kernel=3
+    - c3  Kernel=1
+    - P1  Pooling
+    - C3  Kernel=3
+    - C4  Kernel=3
+    - C5  Kernel=3
+    - c6  Kernel=1
+    - P2  Pooling
+    - C7  Kernel=3
+    - C8  Kernel=3
+    - c9  Kernel=3
+    - GAP GAP
+    - C10 Kernel=1
+- [ ] parameter less than 50k
+- [ ] Max Epoch 20
+
+- Versions
+    - [ ] Batch Norm
+    - [ ] Layer Norm
+    - [ ] Group Norm
+- [ ] Misclassified Image for different version in 5*2 matrix
