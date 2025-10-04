@@ -16,9 +16,7 @@ wheels/
 *.csv
 *.tsv
 venv/
-*.txt
 *.parquet
-data/
 lightning_logs/
 *.pth 
 *.pt 
@@ -188,3 +186,16 @@ cython_debug/
 .vscode/
 
 assets/
+*.zip
+*.pdf
+*.csv
+*.tsv
+venv/
+*.parquet
+lightning_logs/
+*.pth 
+*.pt 
+*.ckpt
+.venv/
+ref/
+.gradio
