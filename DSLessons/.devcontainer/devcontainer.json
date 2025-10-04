@@ -1,0 +1,16 @@
+{
+	"image": "ghcr.io/astral-sh/uv:debian",
+	"features": {},
+	"postCreateCommand": "uv self version",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	},
+	"forwardPorts": [
+		6274
+	]
+}

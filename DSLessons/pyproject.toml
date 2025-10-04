@@ -1,0 +1,17 @@
+[project]
+name = "dslessons"
+version = "1.0"
+description = "Data Science Library helpers"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.30.1",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.3",
+    "opentsne>=1.0.2",
+    "pandas>=2.3.3",
+    "pyarrow>=21.0.0",
+    "scikit-learn>=1.7.2",
+    "scipy>=1.16.2",
+    "seaborn>=0.13.2",
+    "umap-learn>=0.5.9.post2",
+]
