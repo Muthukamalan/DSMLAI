@@ -106,9 +106,9 @@ demo = gr.Interface(
       title="CLIP Search",
       description="This application displays TOP THREE images from Unsplash dataset that best match the search query provided by the user from (25k images-db). Moreover, the input can be provided via two modes ie text or image form.",
       examples=[
-        ["./assets/duck.jpeg","Image2Image", None] ,
+        ["./info/duck.jpeg","Image2Image", None] ,
         [None, "Text2Image", "Planet Earth"],
-        ["./assets/horse.jpeg", "Text2Image", "Horse"]
+        ["./info/horse.jpeg", "Text2Image", "Horse"]
 
       ]
     )

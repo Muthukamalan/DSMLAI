@@ -19,7 +19,7 @@ In this Repo, I practised (from scratch) how we implement this to Vision. Transf
 
 
 #### Model
-<div align='center'><img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/assets/vit.png" width=500 height=300></div>
+<div align='center'><img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/info/vit.png" width=500 height=300></div>
 
 
 **Patches**
@@ -32,8 +32,8 @@ nn.Conv2d(
         )
 ```
 <div align='center'>
-    <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/assets/patches.png" width=500 height=300 style="display:inline-block; margin-right: 10px;" alt="patchs">
-    <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/assets/embedding.png" width=500 height=300 style="display:inline-block;">
+    <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/info/patches.png" width=500 height=300 style="display:inline-block; margin-right: 10px;" alt="patchs">
+    <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/info/embedding.png" width=500 height=300 style="display:inline-block;">
 </div>
 
 
@@ -41,9 +41,9 @@ nn.Conv2d(
 > Unlike in words, we don't use casual mask here.
 
 
-<!-- <div align='center'><img src="assets/attention-part.png" width=300 height=500 style="display:inline-block; margin-right: 10px;"></div> -->
+<!-- <div align='center'><img src="info/attention-part.png" width=300 height=500 style="display:inline-block; margin-right: 10px;"></div> -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/assets/attention-part.png" alt="Attention Visualization" />
+  <img src="https://raw.githubusercontent.com/Muthukamalan/VitCiFar/main/info/attention-part.png" alt="Attention Visualization" />
 </p>
 
 

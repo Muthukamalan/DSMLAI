@@ -136,14 +136,14 @@ class CLIPModel(pl.LightningModule):
 ## Training
 - nvitop
 
-![cool-clip-nvitop](./assets/cool-clip-nvitop.png)
+![cool-clip-nvitop](./info/cool-clip-nvitop.png)
 - htop
-![cool-clip](./assets/cool-clip.png)
+![cool-clip](./info/cool-clip.png)
 - training
-![fit-report](./assets/fit-report.png)
+![fit-report](./info/fit-report.png)
 
 
 
 # Inference
 ## GRADIO APP
-<div><img align='center' src="./assets/clip_model.png" ></img></div>
+<div><img align='center' src="./info/clip_model.png" ></img></div>
